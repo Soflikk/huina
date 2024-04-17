@@ -1,0 +1,9 @@
+After examining the source code, it appears that the image is being loaded
+through a line of code that uses a local file inclusion vulnerability (LFI) in the
+image_name parameter. When attempting to exploit this vulnerability by using
+a simple payload such as ../../../etc/passwd, an error message appeared
+instructing to try harder. This indicates that the application may be filtering
+certain characters, such as ../. IUltimately, a payload was discovered that
+successfully read the
+/local?image_name=..//..//..//etc/passwd file.
+/local?image_name=..//..//..//tmp/flag

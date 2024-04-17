@@ -1,0 +1,4 @@
+Inspector->;js app. ->; copy source url ->; in url /js/app…. ->; find admin role ->;
+change token ->; in storage in our ip we have user graph, copy our token
+Python3 jwt_tool.py -t http / rc «token» -C -d rockyou.txt
+In json change id=12 to id=1 and key «letmein» -> paste new token

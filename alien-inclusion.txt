@@ -1,0 +1,6 @@
+Firstly when we open the site and look inside the code we can see that it says
+if some parameter is equal to start it would show us the secret. So we need to
+use curl.
+Curl ‘http. : /?start=‘ —data ‘start=flag.php’
+--data attribute with ‘start’ parameter
+Lfi vulnerability

