@@ -1,0 +1,18 @@
+﻿
+Let's start by exploring the page source
+
+There is one interesting line  action in html specifies the URL or file path where the form data will be submitted In this case, the form data will be submitted to a file named “sadjwjaskdkwkasjdkwasdasdas.html” This can be a relative  or absolute URL/path.so I added it to the url and get input bar
+
+There few times was mentioned tar what is name of kali app which is used to create, manipulate, and extract archived files
+Then I searched for tar commands 
+-cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec= and added here also linux commands “ls-l” which will  list detailed information about files and directories in a directory
+
+Check page source one more time
+
+There is only one directory whit long and strange name where can be flag
+
+
+Let use same command but add not ls-l but cat file name and /flag that will display data from file 
+
+-cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec="cat enhjenhzZGN3YWRzYWRhc2Rhc3NhY2FzY2FzY2FzY2FjYWNzZHNhY2FzY2Fzc2FjY2Fz/flag"
+

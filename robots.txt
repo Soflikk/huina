@@ -1,0 +1,14 @@
+﻿
+As always I started with discovering of page source
+
+There is nothing interesting here So I tried to find some other weakness I used Dirsearch which is a linux tool used for discovering hidden directories and files on web servers
+
+
+
+
+In the result, only one line was green-successful named robots.txt  so I added it to the url
+
+Then I also added  /g00d_old_mus1c.php to the URL and get flag
+
+
+CTF{Kr4ftw3rk_4nd_th3_r0b0ts}

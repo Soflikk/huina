@@ -1,0 +1,16 @@
+
+As always I started with discovering of page source
+
+
+
+there I found interesting line where was mentioned flag.php this its what we ar looking for so I am going to use pipedream this is tool which provides custom endpoints where I will sent request with flag
+
+We just copy our end point url and paste it in sites input  bar 
+
+ we have  to use HTTP POST request for what --post-file is responsible in my command and then we add path were flag.php can be there is path breakdown
+Var is root directory in linux were is saved frequently changed files-variables
+WWW is directory which is location of web content 
+Html in this case is used as subdirectory where it is stored html and php files that will be served by the web server
+And  at the end flag.php is php file were should be stored our  flag
+
+DCTF{6789af26f90396678909a99bf46ba3a78b2f1b349fbc4385e6c50556c1d0c9ff}
