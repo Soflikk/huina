@@ -1,0 +1,8 @@
+In the description was hint about markup language that can be read by humans as wall by machines only language like this is XML so I searched for XML External Entity (XXE) Injection Payloads 
+Then  I open burp suite where I can  modify requests after that I pressed parse button and  turn on intercept 
+write /parse?<foo>hi%21<%2Ffoo>=&_token=Euk0...
+then send request to repeater where add payload from previous search
+After that I get response where was  encoded flag  so I send It to decoder and decode it as a base 64
+go to decoder and get flag
+
+
